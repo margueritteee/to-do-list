@@ -34,9 +34,9 @@ function showTask(){
     listcontainer.innerHTML=localStorage.getItem("data");
 }
 showTask();
-inputBox.addEventListener("keyup", function(event) {
+inputbox.addEventListener("keyup", function(event) {
     if (event.keyCode === 13) { // 13 is the keycode for "Enter"
       event.preventDefault();
-      addTask();
+      addtask();
     }
   });  
